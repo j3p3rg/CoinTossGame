@@ -11,7 +11,9 @@ Withdrawal functions: Separate functions for withdrawing ETH and LINK to manage 
 State management: Using a requestInProgress flag to prevent reentrancy and ensure that only one randomness  request.
 
 ###############################################
+
 Example for Setting Parameters in a Constructor
-When you are ready to deploy your smart contract, you will typically set these parameters in the constructor or as immutable variables. Here’s an example of how you might write the constructor for your contract:
+When you are ready to deploy your smart contract, you will typically set these parameters in the constructor or as immutable variables. 
+Here’s an example of how you might write the constructor for your contract:
 
 
