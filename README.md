@@ -15,15 +15,3 @@ Example for Setting Parameters in a Constructor
 When you are ready to deploy your smart contract, you will typically set these parameters in the constructor or as immutable variables. Here’s an example of how you might write the constructor for your contract:
 
 
-constructor(
-    address _vrfCoordinator,
-    address _linkToken,
-    bytes32 _keyHash,
-    uint256 _fee,
-    uint256 _minimumBet
-) VRFConsumerBase(_vrfCoordinator, _linkToken) {
-    owner = msg.sender;
-    keyHash = _keyHash;
-    fee = _fee;
-    minimumBet = _minimumBet;
-}
